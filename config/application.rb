@@ -18,7 +18,10 @@ module Splurty
   
   config.assets.paths << "#{Rails.root}/app/assets/fonts"
 
-  config.assets.precompile += %w( .svg .eot .woff .ttf)
+  config.assets.precompile += %w( .svg .eot .woff .ttf )
+
+  
+ 
 
 
 
